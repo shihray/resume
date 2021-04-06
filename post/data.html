@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Data Analysis</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="../css/animate.css"/>
+    <link rel="stylesheet" href="../css/style.css"/>
+    <script type="text/javascript" src="../js/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/plugins.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<!-- MAIN CONTENT -->
+<div class="container-fluid">
+    <!-- HEADER -->
+    <section id="header2">
+        <!-- NAVIGATION -->
+        <nav class="navbar navbar-fixed-top navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#header2">Ray</a>
+                </div><!-- /.navbar-header -->
+
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="./microservices.html">Containerized Microservices</a></li>
+                        <li><a href="./data.html">Data Analysis</a></li>
+                        <li><a href="./project.html">Project Office</a></li>
+                    </ul>
+                </div> <!-- /.navbar-collapse -->
+            </div> <!-- /.container -->
+        </nav>
+    </section>
+    <!-- HEADER END -->
+    <!-- ABOUT -->
+    <section id="about" class="light">
+        <header class="title">
+            <h2>Data <span>Analysis</span></h2>
+        </header>
+        <div class="container">
+            <div class="row table-row">
+                <div class="col-md-9 col-md-offset-3">
+                    <h2>Intro<span>duction</span></h2>
+                    <p>
+                        Collect all branches POS system data, Customized adjustment based on the owner's needs<br>
+                        Support cross-platform, Protective treatment for safety
+                    </p>
+<!--                    <p>-->
+<!--                        可以同時整合業者所有分店POS機記錄，資料依據業主需求客製化調整<br>-->
+<!--                        支援跨平台、針對安全性進行防護處理<br>-->
+<!--                    </p>-->
+                </div>
+            </div>
+            <div class="row table-row">
+                <div class="col-md-9 col-md-offset-3">
+                    <h2>Technical <span>Map</span></h2>
+                    <div class="about-content">
+                        <img src="../img/data_flow.png" alt="" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row table-row">
+                <div class="col-md-9 col-md-offset-3">
+                    <h2>Module <span>Description</span></h2>
+                    <dl class="">
+                        <dt>Main Service</dt>
+                        <dd>
+                            <ul>
+                                <li>Connection with Frontend and get corresponding information by using API</li>
+                                <li>Service can expansion according to the requirement</li>
+<!--                                <li> 與客戶端建立連線，透過API取得相對應資料<br>-->
+<!--                                    根據條件需求，擴充服務器數量達到多人請求附載平衡-->
+<!--                                </li>-->
+                            </ul>
+                        </dd>
+
+                        <dt>CronJob Service</dt>
+                        <dd>
+                            <ul>
+                                <li>
+                                    Scheduled process of non-real-time of data needs
+                                </li>
+                                <li>
+                                    Analysis and classification data for subsequent statistical inquiries
+                                </li>
+<!--                                <li> 定時排程處理非即時大量資料需<br>-->
+<!--                                    同時分析、分類各項資料以供後續統計查詢所使用-->
+<!--                                </li>-->
+                            </ul>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+
+            <div class="row table-row">
+                <div class="col-md-9 col-md-offset-3">
+                    <h2>Service <span>Structure</span></h2>
+
+                    <p></p>
+                    <div class="about-content">
+                        <img src="../img/da_struct.png" alt="" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row table-row">
+                <div class="col-md-9 col-md-offset-3">
+                    <h2>Database<span></span></h2>
+
+                    <dl class="">
+                        <dt>MySQL</dt>
+                        <dd>
+                            <ul>
+                                <li>MaxScale</li>
+                                <li>Replication</li>
+                            </ul>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+
+            <div class="row table-row">
+                <div class="col-md-9 col-md-offset-3">
+                    <h2>Protocol<span></span></h2>
+
+                    <dl class="">
+                        <dt>TCP/IP</dt>
+                        <dd>
+                            <ul>
+                                <li>Single request from the client</li>
+                            </ul>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>Made BY <i class="fa fa-star"></i> Shih Ray</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+<!-- MAIN CONTENT END -->
+
+</body>
+</html>
